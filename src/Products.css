@@ -1,0 +1,18 @@
+.Products{
+    position: absolute;
+width: 172px;
+height: 32px;
+left: 59px;
+top: 748px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 32px;
+/* identical to box height, or 89% */
+
+letter-spacing: 0.1px;
+
+color: #000000;
+}
