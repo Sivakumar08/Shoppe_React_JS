@@ -1,0 +1,148 @@
+.Footd {
+    /* Auto layout */
+    position: absolute;
+    width: 1440px;
+    height: 292px;
+    left: 0px;
+    top: 142px;
+
+    background: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 0.1px solid rgb(228, 227, 227);
+    
+
+}
+
+.Foota {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    padding-left: 250px;
+    width: 1041px;
+    height: 170px;
+}
+
+
+
+.Foot2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 148px;
+    height: 170px;
+}
+
+.Foot2 h5 {
+    width: 160px;
+    height: 24px;
+
+    /* h5 */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.1px;
+
+    /* text-color */
+
+    color: #252B42;
+
+}
+
+.Foot2 .In {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 155px;
+    height: 126px;
+}
+
+.Foot2 p {
+    width: 148px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.Foot2 .Button {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.Foot2 button {
+
+    box-sizing: border-box;
+
+    left: 0px;
+    height: 45px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #23A6F0;
+    border: 0px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+
+}
+.Foot2 input{
+    box-sizing: border-box;
+
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+background: #F9F9F9;
+border: 0.1px solid #E6E6E6;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: #737373;
+}
+
+.Foot2 button:hover{
+    transition: 0.2s;
+    background: #0672b0;
+    cursor: pointer;
+}
+
